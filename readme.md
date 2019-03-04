@@ -57,4 +57,8 @@ namespace Geometry.Tests
 }
 ```
 
-
+As expected, this test fails when you run it. Now, you override the function and try again. This time, the test fails
+because you forgot to put a space in between the comma and the y coordinate. Fortunately, nobody saw this mistake and,
+even more fortunately, the feature didn't go out to QA like that. Had it done so, it might be days before you finally
+got the fix right. This is one of the most immediate benefits of unit testing. If you can catch silly mistakes in
+development, you save everyone's time.
