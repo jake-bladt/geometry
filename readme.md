@@ -59,3 +59,8 @@ Good unit tests generally share the following characteristics:
 * Order Independent & Isolated
 * Fast
 * Easy to Set Up
+
+
+## Arrange, Act, Assert
+
+
